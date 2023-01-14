@@ -1,8 +1,8 @@
 
 [general]
-	"Enable 'q' Button" = true
+	"Enable 'q' Button" = false
 	"'q' Button on the Right" = false
-	"Disable Q Menu Effects" = false
+	"Disable Q Menu Effects" = true
 	#Disable this to turn off the quark system that makes features turn off when specified mods with the same content are loaded
 	"Use Anti Overlap" = true
 	#Quark replaces the Piston logic to allow for its piston features to work. If you're having troubles, try turning this off.
@@ -80,12 +80,12 @@
 		Blacklist = ["minecraft:water", "minecraft:lava", "minecraft:fire"]
 
 [building]
-	"Wooden Posts" = true
+	"Wooden Posts" = false
 	"Vertical Slabs" = true
 	"Vertical Planks" = true
 	"Variant Ladders" = true
 	"Variant Furnaces" = true
-	"Variant Chests" = true
+	"Variant Chests" = false
 	"Variant Bookshelves" = true
 	Thatch = true
 	"Sturdy Stone" = true
@@ -234,7 +234,7 @@
 	"Quick Armor Swapping" = true
 	"Item Sharing" = true
 	"Inventory Sorting" = true
-	"Hotbar Changer" = true
+	"Hotbar Changer" = false
 	"Expanded Item Interactions" = true
 	"Easy Transfering" = true
 	"Chests In Boats" = true
@@ -1428,7 +1428,7 @@
 					"Is Blacklist" = true
 
 [client]
-	"Variant Animal Textures" = true
+	"Variant Animal Textures" = false
 	"Uses For Curses" = true
 	"Usage Ticker" = true
 	"Soul Candles" = true
@@ -1468,14 +1468,14 @@
 
 	[client.improved_tooltips]
 		"Attribute Tooltips" = true
-		"Food Tooltips" = true
+		"Food Tooltips" = false
 		"Shulker Tooltips" = true
 		"Map Tooltips" = true
 		"Enchanting Tooltips" = true
 		"Shulker Box Use Colors" = true
 		"Shulker Box Require Shift" = false
 		"Map Require Shift" = false
-		"Show Saturation" = true
+		"Show Saturation" = false
 		"Food Compression Threshold" = 4
 		#The value of each shank of food. Tweak this when using mods like Hardcore Hunger which change that value.
 		"Food Divisor" = 2
@@ -1510,11 +1510,11 @@
 		"Hud Height" = 10
 
 [experimental]
-	"Zombie Villagers On Normal" = false
+	"Zombie Villagers On Normal" = true
 	"Spawner Replacer" = false
 	"Overlay Shader" = false
 	"Narrator Readout" = false
-	"Game Nerfs" = false
+	"Game Nerfs" = true
 	"Enchantments Begone" = false
 	"Adjustable Chat" = false
 
@@ -1532,7 +1532,7 @@
 	[experimental.game_nerfs]
 		#Makes Mending act like the Unmending mod
 		#https://www.curseforge.com/minecraft/mc-mods/unmending
-		"Nerf Mending" = true
+		"Nerf Mending" = false
 		#Resets all villager discounts when zombified to prevent reducing prices to ridiculous levels
 		"Nerf Villager Discount" = true
 		#Makes Iron Golems not drop Iron Ingots
@@ -1540,7 +1540,7 @@
 		#Makes Boats not glide on ice
 		"Disable Ice Roads" = true
 		#Makes Sheep not drop Wool when killed
-		"Disable Wool Drops" = true
+		"Disable Wool Drops" = false
 
 	[experimental.enchantments_begone]
 		"Enchantments To Begone" = []

@@ -1,7 +1,7 @@
 
 [general]
 	block_growths = true
-	creative_tab = false
+	creative_tab = true
 	grass_over_mycelium = true
 	mycelium_over_grass = true
 
@@ -48,7 +48,7 @@
 [generation]
 	cryosol_feature = true
 	humus_feature = true
-	fluvisol_feature = true
+	fluvisol_feature = false
 	silt_feature = true
 	vertisol_feature = true
 	lakebed_feature = true

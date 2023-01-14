@@ -3,20 +3,20 @@
 	#Reach: how far away the player can place blocks using mirror/array etc.
 	#Enable the crafting of reach upgrades to increase reach.
 	#If disabled, reach is set to level 3 for survival players.
-	enableReachUpgrades = true
+	enableReachUpgrades = false
 	#Maximum reach in creative
 	#Keep in mind that chunks need to be loaded to be able to place blocks inside.
 	maxReachCreative = 200
 	#Maximum reach in survival without upgrades
 	#Reach upgrades are craftable consumables that permanently increase reach.
 	#Set to 0 to disable Effortless Building until the player has consumed a reach upgrade.
-	maxReachLevel0 = 20
+	maxReachLevel0 = 24
 	#Maximum reach in survival with one upgrade
-	maxReachLevel1 = 50
+	maxReachLevel1 = 24
 	#Maximum reach in survival with two upgrades
-	maxReachLevel2 = 100
+	maxReachLevel2 = 24
 	#Maximum reach in survival with three upgrades
-	maxReachLevel3 = 200
+	maxReachLevel3 = 24
 
 [SurvivalBalancers]
 	#Determines what blocks can be replaced in survival.
@@ -43,5 +43,5 @@
 	#Switch to using the simple performance shader when placing more than this many blocks.
 	shaderTreshold = 1500
 	#Use fancy shaders while placing blocks
-	useShaders = true
+	useShaders = false
 
